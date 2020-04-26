@@ -27,9 +27,9 @@ def  Main():
     result = fib(args.list, args.o[0])
     print("The " +str(args.list)+"the fib number "+str(result))
 
-    # if args.output:
-    #       f = open("fibnum.txt", "a")
-    #       f.write(str(results) +"/n")
+    if args.output:
+           f = open("fibnum.txt", "a")
+           f.write(str(results) +"/n")
 
 if __name__ == '__main__':
     Main()
